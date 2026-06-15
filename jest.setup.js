@@ -1,0 +1,7 @@
+import "@testing-library/jest-dom";
+
+require("dotenv").config({ path: ".env.test" });
+
+jest.mock("uuid", () => ({
+  v4: () => "mocked-uuid-1111-2222-3333",
+}));

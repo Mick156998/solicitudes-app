@@ -1,0 +1,424 @@
+{
+  "areas": [
+    {
+      "id": "1",
+      "description": "Sistemas"
+    },
+    {
+      "id": "2",
+      "description": "TI"
+    },
+    {
+      "id": "3",
+      "description": "RRHH"
+    },
+    {
+      "id": "4",
+      "description": "Finanzas"
+    },
+    {
+      "id": "5",
+      "description": "Legal"
+    },
+    {
+      "id": "6",
+      "description": "Operaciones"
+    },
+    {
+      "id": "7",
+      "description": "Administración"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Miguel",
+      "lastName": "Cárdenas",
+      "user": "admin",
+      "password": "admin123",
+      "area": {
+        "id": 1,
+        "description": "Sistemas"
+      },
+      "role": "Administrador"
+    },
+    {
+      "id": "2",
+      "name": "Carlos",
+      "lastName": "Ramírez",
+      "user": "cramirez",
+      "password": "cramirez_abc123",
+      "area": {
+        "id": 2,
+        "description": "TI"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "3",
+      "name": "María",
+      "lastName": "Torres",
+      "user": "mtorres",
+      "password": "abc123",
+      "area": {
+        "id": 2,
+        "description": "TI"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "4",
+      "name": "Ana",
+      "lastName": "Vargas",
+      "user": "avargas",
+      "password": "abc123",
+      "area": {
+        "id": 3,
+        "description": "RRHH"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "5",
+      "name": "Luis",
+      "lastName": "Mendoza",
+      "user": "lmendoza",
+      "password": "abc123",
+      "area": {
+        "id": 3,
+        "description": "RRHH"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "6",
+      "name": "Sofía",
+      "lastName": "Castro",
+      "user": "scastro",
+      "password": "abc123",
+      "area": {
+        "id": 4,
+        "description": "Finanzas"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "7",
+      "name": "Diego",
+      "lastName": "Rojas",
+      "user": "drojas",
+      "password": "abc123",
+      "area": {
+        "id": 4,
+        "description": "Finanzas"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "8",
+      "name": "Patricia",
+      "lastName": "Silva",
+      "user": "psilva",
+      "password": "abc123",
+      "area": {
+        "id": 5,
+        "description": "Legal"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "9",
+      "name": "Jorge",
+      "lastName": "Navarro",
+      "user": "jnavarro",
+      "password": "abc123",
+      "area": {
+        "id": 5,
+        "description": "Legal"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "10",
+      "name": "Ricardo",
+      "lastName": "Flores",
+      "user": "rflores",
+      "password": "abc123",
+      "area": {
+        "id": 6,
+        "description": "Operaciones"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "11",
+      "name": "Valeria",
+      "lastName": "Paredes",
+      "user": "vparedes",
+      "password": "abc123",
+      "area": {
+        "id": 6,
+        "description": "Operaciones"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "12",
+      "name": "Fernando",
+      "lastName": "Salazar",
+      "user": "fsalazar",
+      "password": "abc123",
+      "area": {
+        "id": 7,
+        "description": "Administración"
+      },
+      "role": "Usuario"
+    },
+    {
+      "id": "13",
+      "name": "Gabriela",
+      "lastName": "León",
+      "user": "gleon",
+      "password": "abc123",
+      "area": {
+        "id": 7,
+        "description": "Administración"
+      },
+      "role": "Usuario"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-001",
+      "title": "Acceso a VPN corporativa",
+      "description": "Necesito acceso a la VPN para realizar trabajo remoto desde mi domicilio.",
+      "category": "Acceso",
+      "priority": "alta",
+      "status": "pendiente",
+      "createdAt": "2026-06-10T09:00:00",
+      "updatedAt": "2026-06-14T10:47:23.670Z",
+      "userRequester": {
+        "id": 4,
+        "name": "Ana",
+        "lastName": "Vargas",
+        "area": {
+          "id": 3,
+          "description": "RRHH"
+        },
+        "role": "Usuario"
+      },
+      "comments": [
+        {
+          "id": "COM-E4CFECDA-DA11-4528-9700-C773D14FB041",
+          "text": "Cambio de estado",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T10:36:26.846Z"
+        },
+        {
+          "id": "COM-715B4127-91FA-4DDC-A78D-9486725A2AB0",
+          "text": "Se comunicará con el área para ver cuantos ordenadores necesitan instalar VPN",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T10:41:18.527Z"
+        },
+        {
+          "id": "COM-AD5F454A-F701-481A-B932-952F636FDDDA",
+          "text": "Retorna a pendiente",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T22:59:41.040Z"
+        },
+        {
+          "id": "COM-765EB818-41BB-47CB-A96A-CD69CD8018B9",
+          "text": "Pendientes",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T23:00:06.224Z"
+        },
+        {
+          "id": "COM-91541093-2727-4907-B8AE-81299193EBFD",
+          "text": "aaa",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T23:00:31.599Z"
+        },
+        {
+          "id": "COM-281D31A8-7A91-4869-BDD9-B948DC3D33B5",
+          "text": "abc123",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T23:13:41.145Z"
+        }
+      ]
+    },
+    {
+      "id": "REQ-002",
+      "title": "Instalación de Microsoft Project",
+      "description": "Se requiere Microsoft Project para la planificación y seguimiento de proyectos.",
+      "userRequester": {
+        "id": 6,
+        "name": "Sofía",
+        "lastName": "Castro",
+        "area": {
+          "id": 4,
+          "description": "Finanzas"
+        },
+        "role": "Usuario"
+      },
+      "category": "Software",
+      "priority": "media",
+      "status": "cerrada",
+      "createdAt": "2026-06-11T10:30:00",
+      "updatedAt": "2026-06-12T08:15:00",
+      "comments": [
+        {
+          "id": "COM-001",
+          "userAuthor": {
+            "id": 1,
+            "name": "Juan",
+            "lastName": "Pérez",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "text": "Solicitud recibida y en proceso de evaluación.",
+          "createdAt": "2026-06-12T08:15:00"
+        },
+        {
+          "id": "COM-29A015E4-3FDC-476A-A08E-8BBA31DF2088",
+          "text": "Se revisó la solicitud por el área y se procederá a pasar la solicitud al área de soporte",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T08:22:35.032Z"
+        },
+        {
+          "id": "COM-090A6981-5482-445F-9D53-38EA3103ECDA",
+          "text": "Se regresa para revisón de solicitud. falta detallar el usuario a quien se le detallará",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T08:31:23.912Z"
+        },
+        {
+          "id": "COM-4AD24A25-8A25-4F40-A30C-66549F34175A",
+          "text": "No se indicó el equipo del usuario para poder instalar el office correspondiente",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-14T08:44:35.905Z"
+        }
+      ]
+    },
+    {
+      "id": "2i0HR7vRzgk",
+      "title": "Pueba",
+      "description": "descripcion de prueba",
+      "category": "Hardware",
+      "priority": "alta",
+      "status": "en_revision",
+      "createdAt": "2026-06-15T05:53:08.350Z",
+      "updatedAt": "2026-06-15T06:04:17.784Z",
+      "userRequester": {
+        "id": "1",
+        "name": "Miguel",
+        "lastName": "Cárdenas",
+        "area": {
+          "id": 1,
+          "description": "Sistemas"
+        },
+        "role": "Administrador"
+      },
+      "comments": [
+        {
+          "id": "COM-945E034C-89BD-4462-B3F0-47C88C08FB0A",
+          "text": "Se consultará con el área para ver el presupuesto manejado",
+          "userAuthor": {
+            "id": "1",
+            "name": "Miguel",
+            "lastName": "Cárdenas",
+            "area": {
+              "id": 1,
+              "description": "Sistemas"
+            },
+            "role": "Administrador"
+          },
+          "createdAt": "2026-06-15T05:54:10.222Z"
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

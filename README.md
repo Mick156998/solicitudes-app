@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Gestor de Solicitudes (solicitudes-app)
 
-## Getting Started
+Aplicación web para la gestión de solicitudes, desarrollada con Next.js y React. Permite crear, visualizar y administrar solicitudes mediante una interfaz moderna, consumiendo datos simulados a través de JSON Server.
+---
 
-First, run the development server:
+## 📖 Descripción de la solución
 
+El proyecto **Gestor de Solicitudes** es una aplicación que permite:
+
+- Crear y gestionar solicitudes
+- Listar solicitudes existentes
+- Visualizar detalle de cada solicitud
+- Simular un backend mediante JSON Server
+- Ejecutar pruebas unitarias y end-to-end
+
+La aplicación está construida con **Next.js App Router**, consumiendo datos mediante `fetch` desde una API simulada.
+
+---
+
+## Diseño Figma
+https://www.figma.com/design/oPAYuAQdAJNihRobQzKeMA/Sin-t%C3%ADtulo?node-id=0-1&p=f
+
+## 🧠 Decisiones técnicas
+
+### 🔧 Frontend
+- **Next.js (App Router)**: arquitectura moderna basada en Server Components y routing simplificado.
+- **React + TypeScript**: tipado estático para mayor robustez y mantenibilidad.
+- **Tailwind CSS**: utilidades para estilos rápidos y consistentes.
+- **Lucide-react**: librería de iconos ligera y moderna.
+
+### 🌐 Consumo de datos
+- **fetch API**: utilizada para comunicación con backend simulado.
+- **JSON Server**: simula una API REST real para desarrollo y testing.
+
+### 🧪 Testing
+- **Jest**: pruebas unitarias y de integración.
+- **Playwright (E2E)**: pruebas end-to-end.
+- **Concurrently + wait-on**: ejecución coordinada de entorno para pruebas E2E.
+
+### 🐳 Infraestructura
+- **Docker**: contenedorización de la aplicación para ejecución consistente en distintos entornos.
+
+---
+## 📦 Dependencias principales
+
+- next
+- react
+- react-dom
+- typescript
+- tailwindcss
+- lucide-react
+- jest
+- playwright
+- json-server
+- concurrently
+- wait-on
+
+---
+
+## ⚙️ Requisitos del entorno
+
+- Node.js **v22.22.3**
+- npm o yarn
+- Docker
+---
+
+## 🚀 Comandos disponibles
+
+### 🔹 Desarrollo
 ```bash
+npm install
+
+## 🧪 Levantar backend simulado (JSON Server)
+npm run mock-api
+## 🧪 Levantar la aplicación en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
