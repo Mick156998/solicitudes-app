@@ -65,12 +65,9 @@ https://www.figma.com/design/oPAYuAQdAJNihRobQzKeMA/Sin-t%C3%ADtulo?node-id=0-1&
 ---
 
 ## Agregar archivos env
-.env
-NEXT_PUBLIC_API_URL=http://json-server:3001
-.env.local
-NEXT_PUBLIC_API_URL=http://localhost:3001
-.env.test
-NEXT_PUBLIC_API_URL=http://localhost:3002
+- **.env:** NEXT_PUBLIC_API_URL=http://json-server:3001
+- **.env.local:** NEXT_PUBLIC_API_URL=http://localhost:3001
+- **.env.test:** NEXT_PUBLIC_API_URL=http://localhost:3002
 
 ## 🚀 Comandos disponibles
 
