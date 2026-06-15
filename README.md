@@ -69,6 +69,9 @@ https://www.figma.com/design/oPAYuAQdAJNihRobQzKeMA/Sin-t%C3%ADtulo?node-id=0-1&
 - **.env.local:** NEXT_PUBLIC_API_URL=http://localhost:3001
 - **.env.test:** NEXT_PUBLIC_API_URL=http://localhost:3002
 
+## Pagina publicada (temporal)
+https://solicitudes-app.vercel.app/pages/login
+
 ## 🚀 Comandos disponibles
 
 ### 🔹 Desarrollo
